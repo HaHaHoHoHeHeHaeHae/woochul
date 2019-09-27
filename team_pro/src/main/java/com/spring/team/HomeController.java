@@ -29,7 +29,7 @@ public class HomeController {
 		System.out.println("노는게 제일 좋아");
 		
 		System.out.println("친구들 모여라");
-		
+		System.out.println("우철이바보~");
 		return "home";
 	}
 	
