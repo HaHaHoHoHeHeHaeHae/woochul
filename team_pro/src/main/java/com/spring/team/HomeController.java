@@ -30,6 +30,13 @@ public class HomeController {
 		
 		System.out.println("친구들 모여라");
 		System.out.println("우철이바보~");
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		model.addAttribute("serverTime", formattedDate );
+		System.out.println("ㅎㅇㅎㅇ");
 		return "home";
 	}
 	
